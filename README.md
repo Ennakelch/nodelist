@@ -11,7 +11,4 @@ When nodes are destructed, they are automatically detached (removed) from the li
 Nodes can only attach to one list at a time, and attaching a node to one list will automatically detach the node from its current list. 
 The list iterator is bidirectional; deleting a node at the iterator's position will invalidate the iterator. 
 
-The nodelist is good for entity-component-system (ECS) patterns.
-A node references some component. 
-The entity stores the node. 
-The system manages the nodelist of components. 
+
