@@ -95,7 +95,7 @@ public:
 			}
 			
 			if (!node->prev_node) {
-				throw std::invalid_argument("The other node must be attached or non-data node (previous node is null).");
+				throw std::invalid_argument("The other node must be attached (previous node is null).");
 			}
 
 			this->detach();
@@ -118,7 +118,7 @@ public:
 			}
 
 			if (!node->next_node) {
-				throw std::invalid_argument("The other node must be attached or non-data node (next node is null).");
+				throw std::invalid_argument("The other node must be attached (next node is null).");
 			}
 
 			this->detach();
